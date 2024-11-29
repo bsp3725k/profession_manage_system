@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding Employee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h5>New Employees</h5>
+        <div class="input_box">
+            <div class="name_box">
+                <label for="Name">Enter Name</label><br>
+                <input type="text" placeholder="Enter Name" id="name" required>
+            </div>
+            <div class="professional_box">
+                <label>Enter Profession</label><br>
+                <input type="text" placeholder="Enter Profession" id="profession" required>
+            </div>
+            <div class="age_box">
+                <label>Enter Age</label><br>
+                <input type="number" placeholder="Enter Age" id="age" required>
+            </div>
+        </div>
+        <button class="btn" onclick="handleSubmit()">Add User</button>
+        <div class="msg" id="msg_ref">
+            <span class="msg_error" style="display: none;">Error: Please Make sure All the field before adding in an employee</span>
+            <span class="success" style="display: none;">Success : Message Added</span>
+        </div>
+        <p class="added_emp">Added Employees</p>
+        <div class="list_container" id="container">
+            <div class="data_not_found" style="display: block;">Data not found</div>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>

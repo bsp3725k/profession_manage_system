@@ -1,0 +1,91 @@
+.input_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+body{
+    background-color: black;
+    color: white;
+    padding: 0px 22px;
+}
+h5{
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 20px;
+}
+#name{
+    border: 1px solid white;
+    width: 275.6px;
+    height: 33.6px;
+    background-color: black;
+    color: white;
+
+}
+#profession{
+    border: 1px solid white;
+    width: 275.6px;
+    height: 33.6px;
+    background-color: black;
+    color: white;
+
+}
+#age{
+    border: 1px solid white;
+    width: 275.6px;
+    height: 33.6px;
+    background-color: black;
+    color: white;
+
+}
+.btn{
+    background-color: white;
+    color: black;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+    height: 32.5px;
+}
+.input_box{
+    display: flex;
+    justify-content: space-between;
+
+}
+.name_box{
+    width: 274px;
+    height: 75px;
+    
+}
+.professional_box{
+    width: 274px;
+    height: 75px; 
+
+    
+}
+.age_box{
+    width: 274px;
+    height: 75px;
+}
+.data_not_found{
+    width: 500px;
+    height: 21.6px;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+}
+.added_emp{
+    width: 804px;
+    height: 21.6px;
+    font-size: xx-large;
+}
+.msg_error{
+    color: red;
+}
+.success{
+    color: green;
+    font-size: large;
+}
